@@ -70,7 +70,7 @@ Colored objects
 #### 1. For all three tabletop setups (`test*.world`), perform object recognition, then read in respective pick list (`pick_list_*.yaml`). Next construct the messages that would comprise a valid `PickPlace` request output them to `.yaml` format.
 
 * I implemented all the techniques from previous exercises. 
-* The main goal is to train three different worlds and generate output.yml files.
+* The main goal is to train three different worlds and generate output.yaml files.
 * First, I trained each world with capture_features.py and train_svm.py.
 * In capture_features.py I set the number of attempts to 40 and set hsv to True.
 * In train_svm.py  I work with a 'linear' kernel.
@@ -96,11 +96,11 @@ WORLD 2
 WORLD 3
 ![alt text][world3-recognition]
 
-* Finally, I generate the following output.yml files: 
+* Finally, I generate the following output.yaml files: 
 
-* [OUTPUT-1.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_1.yml)
-* [OUTPUT-2.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_2.yml)
-* [OUTPUT-3.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_3.yml)
+* [OUTPUT-1.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_1.yaml)
+* [OUTPUT-2.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_2.yaml)
+* [OUTPUT-3.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_3.yaml)
 
 
 ### Results
