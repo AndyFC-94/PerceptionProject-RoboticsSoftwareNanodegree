@@ -5,6 +5,17 @@
 ![demo-1](https://user-images.githubusercontent.com/20687560/28748231-46b5b912-7467-11e7-8778-3095172b7b19.png)
 
 
+## PYTHON CODE
+* [RANSAC.py](./Exercise-1/RANSAC.py)
+* [Segmentation.py](./Exercise-2/sensor_stick/scripts/segmentation.py)
+* [Object_recognition.py](./Exercise-3/sensor_stick/scripts/object_recognition.py)
+* [PR2_PROJECT.py](./Exercise-3/sensor_stick/scripts/pr2_project.py)
+
+## OUTPUT.YAML FILES
+* [OUTPUT-1.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_1.yaml)
+* [OUTPUT-2.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_2.yaml)
+* [OUTPUT-3.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_3.yaml)
+
 [//]: # (Image References)
 
 [exercise1]: ./images/Exercise-1.png
@@ -71,6 +82,7 @@ Colored objects
 
 * I implemented all the techniques from previous exercises. 
 * The main goal is to train three different worlds and generate output.yaml files.
+* [PR2_PROJECT.py](./Exercise-3/sensor_stick/scripts/pr2_project.py)
 * First, I trained each world with capture_features.py and train_svm.py.
 * In capture_features.py I set the number of attempts to 40 and set hsv to True.
 * In train_svm.py  I work with a 'linear' kernel.
