@@ -30,7 +30,7 @@ You're reading it!
 ### Exercise 1, 2 and 3 pipeline implemented
 #### 1. Complete Exercise 1 steps. Pipeline for filtering and RANSAC plane fitting implemented.
 * I implemented a pipeline to separate the objects from the table. 
-[RANSAC.py](../Exercise-1/RANSAC.py)
+* [RANSAC.py](./Exercise-1/RANSAC.py)
 
 * The following algorithms were implemented: 
 * * Voxel Grif Filter
@@ -43,7 +43,7 @@ Extracted objects
 
 #### 2. Complete Exercise 2 steps: Pipeline including clustering for segmentation implemented.  
 * Here, I implemented clustering for segmentation of the objects.
-[Segmentation.py](../Exercise-2/sensor_stick/scripts/segmentation.py)
+* [Segmentation.py](./Exercise-2/sensor_stick/scripts/segmentation.py)
 * I implemented Euclidean Clustering.
 * I set the tolerance, minimum cluster size and maximum cluster size.
 
@@ -61,7 +61,7 @@ Colored objects
 #### 2. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
 
 * For object recognition I implemented Support Vector Machine. 
-[Object_recognition.py](../Exercise-3/sensor_stick/scripts/object_recognition.py)
+* [Object_recognition.py](./Exercise-3/sensor_stick/scripts/object_recognition.py)
 
 ![alt text][exercise3]
 
@@ -98,9 +98,9 @@ WORLD 3
 
 * Finally, I generate the following output.yml files: 
 
-[OUTPUT-1.yml](../RoboND-Perception-Project/pr2_robot/scripts/output_1.yml)
-[OUTPUT-2.yml](../RoboND-Perception-Project/pr2_robot/scripts/output_2.yml)
-[OUTPUT-3.yml](../RoboND-Perception-Project/pr2_robot/scripts/output_3.yml)
+* [OUTPUT-1.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_1.yml)
+* [OUTPUT-2.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_2.yml)
+* [OUTPUT-3.yml](./RoboND-Perception-Project/pr2_robot/scripts/output_3.yml)
 
 
 ### Results
