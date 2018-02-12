@@ -100,10 +100,10 @@ WORLD 3
 * I implemented my solution in pr2_project.py file. 
 
 WORLD 1
-![alt text][world3-recognition]
+![alt text][world1-recognition]
 
 WORLD 2
-![alt text][world3-recognition]
+![alt text][world2-recognition]
 
 WORLD 3
 ![alt text][world3-recognition]
